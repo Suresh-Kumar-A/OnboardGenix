@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "app.default.admin.empid",
+      "type": "java.lang.String",
+      "description": "Employee id of the default admin user."
+    },
+    {
+      "name": "app.default.admin.password",
+      "type": "java.lang.String",
+      "description": "Plain Password for the default admin user."
+    },
+    {
+      "name": "app.default.admin.name",
+      "type": "java.lang.String",
+      "description": "Employee Name of the default admin user."
+    },
+    {
+      "name": "app.default.admin.email",
+      "type": "java.lang.String",
+      "description": "Employee email of the default admin user."
+    },
+    {
+      "name": "app.default.admin.phone",
+      "type": "java.lang.String",
+      "description": "Employee phone number of the default admin user."
+    }
+  ] }
