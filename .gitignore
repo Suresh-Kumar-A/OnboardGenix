@@ -25,5 +25,3 @@ replay_pid*
 
 # ignore build directory
 target
-# ignore Intellij Config directory
-.idea
