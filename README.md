@@ -5,16 +5,19 @@
 
 OnboardGenix is an employee onboarding platform which aims to streamline the complex traditional onboarding process for new employees.
 
-Users can make use of the system to check where the user is in the onboarding process & respond to various communications.
+Users can make use of the system to check where they are in the onboarding process & respond to various communications.
 
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- Dashboard
+- Mail Notifications
+- Integrated Discussions
 
+## Roadmap
+
+- Report
+- Azure Integration
 
 ## Environment Variables
 
@@ -70,13 +73,6 @@ Answer 1
 #### Question 2
 
 Answer 2
-
-
-## Roadmap
-
-- Additional browser support
-
-- Add more integrations
 
 
 ## License
