@@ -31,8 +31,8 @@ public class User {
     @Column
     private Integer id;
 
-    @Column(unique = true, nullable = false)
-    private String uid;
+    @Column(name = "emp_id", unique = true, nullable = false)
+    private String empId;
 
     @Column(nullable = false)
     private String password;

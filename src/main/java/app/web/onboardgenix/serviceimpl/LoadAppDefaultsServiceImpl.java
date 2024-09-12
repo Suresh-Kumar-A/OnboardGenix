@@ -40,10 +40,10 @@ public class LoadAppDefaultsServiceImpl {
                 .ifPresentOrElse(value -> {
                         },
                         () -> log.info("Added Default Admin with Emp-Id : {}", userRepository.save(
-                                        User.builder().uid(defaultAdminConfig.getEmpid()).name(defaultAdminConfig.getName())
+                                        User.builder().empId(defaultAdminConfig.getEmpid()).name(defaultAdminConfig.getName())
                                                 .verified(true).email(defaultAdminConfig.getEmail()).phoneNumber(defaultAdminConfig.getPhone())
                                                 .createdAt(Date.from(Instant.now())).password(commonUtils.generatePassword(defaultAdminConfig.getPassword()))
                                                 .role(roleRepository.findByRoleName(AppRoleEnum.ADMIN.name()).orElseThrow()).build())
-                                .getUid()));
+                                .getEmpId()));
     }
 }
